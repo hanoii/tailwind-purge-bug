@@ -1,2 +1,3 @@
 # tailwind-purge-bug
-Showcase for a PR
+
+Replication repo for https://github.com/tailwindlabs/tailwindcss/issues/2748
