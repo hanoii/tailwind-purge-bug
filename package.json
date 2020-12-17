@@ -1,0 +1,17 @@
+{
+  "name": "tailwind-purge-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "dev": "npm run development",
+    "development": "NODE_ENV=development npx tailwindcss-cli@latest build tailwind.css -o styles.css",
+    "prod": "npm run production",
+    "production": "NODE_ENV=production npx tailwindcss-cli@latest build tailwind.css -o styles.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^2.0.2"
+  }
+}
